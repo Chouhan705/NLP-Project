@@ -15,8 +15,11 @@ WMO_CODES = {
     95: "Thunderstorm"
 }
 
-# Default fallback location if IP-based geolocation fails
-DEFAULT_LOCATION = {
+# Your location — set this once. IP-based geolocation was dropped since it's
+# unreliable on mobile/broadband networks (your ISP's NAT gateway can be
+# registered in a totally different city than where you actually are).
+# Find your exact lat/lon at https://www.latlong.net if needed.
+MY_LOCATION = {
     "city": "Mumbai",
     "country_code": "in",
     "lat": "19.0760",
