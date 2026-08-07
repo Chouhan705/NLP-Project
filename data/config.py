@@ -1,6 +1,6 @@
 # Paste your API keys here
 API_KEYS = {
-    "tomtom": "gqOPWMw3Bs3PodJzW0b7FkfZBjnfosWS",      # Your TomTom Key
+    "tomtom": "hjbF1uLhpolKKS5MeVZ5od0f3UmwQMzY",      # Your TomTom Key
     "newsapi": "94a5ec6d18494b89a2e940d88f0b3a34"        # Your NewsAPI Key
 }
 
