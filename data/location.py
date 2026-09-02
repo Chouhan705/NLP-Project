@@ -1,4 +1,4 @@
-from config import MY_LOCATION
+from data.config import MY_LOCATION
 
 
 def get_device_location():

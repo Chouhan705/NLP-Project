@@ -1,9 +1,9 @@
-from config import API_KEYS, WMO_CODES
-from location import get_device_location
-from weather import get_weather_and_aqi
-from traffic import get_traffic_info
-from news import get_news_headlines
-from health import generate_health_report
+from data.config import API_KEYS, WMO_CODES
+from data.location import get_device_location
+from data.weather import get_weather_and_aqi
+from data.traffic import get_traffic_info
+from data.news import get_news_headlines
+from data.health import generate_health_report
 
 
 def main():

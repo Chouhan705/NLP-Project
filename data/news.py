@@ -1,6 +1,6 @@
 import requests
 
-from config import NEWS_ARTICLES_LIMIT, NEWS_DESCRIPTION_MAX_LEN
+from data.config import NEWS_ARTICLES_LIMIT, NEWS_DESCRIPTION_MAX_LEN
 
 
 def extract_article_details(articles_data):

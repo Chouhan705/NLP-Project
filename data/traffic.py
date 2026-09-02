@@ -1,5 +1,5 @@
 import requests
-from config import TRAFFIC_BBOX_PADDING, TRAFFIC_DETAILS_LIMIT
+from data.config import TRAFFIC_BBOX_PADDING, TRAFFIC_DETAILS_LIMIT
 
 
 def get_street_name_from_coords(api_key, lat, lon):
